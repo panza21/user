@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="khadamni.ConnexionController">
+   <children>
+      <Text layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="connecte" wrappingWidth="93.3955078125" />
+      <TextField fx:id="resnom" layoutX="185.0" layoutY="38.0" />
+      <TextField fx:id="resprenom" layoutX="185.0" layoutY="95.0" />
+      <TextField fx:id="resnum_tel" layoutX="185.0" layoutY="146.0" />
+      <TextField fx:id="resadresse" layoutX="185.0" layoutY="195.0" />
+      <TextField fx:id="resadresse_entreprise" layoutX="188.0" layoutY="312.0" />
+      <TextField fx:id="resnomentreprise" layoutX="188.0" layoutY="364.0" />
+      <TextField fx:id="resemail" layoutX="188.0" layoutY="425.0" />
+      <TextField fx:id="resmdp" layoutX="188.0" layoutY="477.0" />
+      <TextField fx:id="resage" layoutX="188.0" layoutY="523.0" />
+      <Button fx:id="modifier" layoutX="433.0" layoutY="538.0" mnemonicParsing="false" onAction="#modif" text="modifier" />
+      <Text layoutX="35.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="nom" />
+      <Text layoutX="24.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="prenom" />
+      <Text layoutX="24.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="numero" />
+      <Text layoutX="24.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="adresse" wrappingWidth="52.0751953125" />
+      <Text layoutX="24.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="adresse entreprise" wrappingWidth="140.0751953125" />
+      <Text layoutX="24.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="nom entreprise" wrappingWidth="140.0751953125" />
+      <Text layoutX="27.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="email" wrappingWidth="140.0751953125" />
+      <Text layoutX="24.0" layoutY="498.0" strokeType="OUTSIDE" strokeWidth="0.0" text="mot de passe" wrappingWidth="140.0751953125" />
+      <Text layoutX="27.0" layoutY="544.0" strokeType="OUTSIDE" strokeWidth="0.0" text="age" wrappingWidth="140.0751953125" />
+      <TextField fx:id="rescentreinere" layoutX="188.0" layoutY="254.0" />
+      <Text layoutX="20.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="centre d'interet" wrappingWidth="112.0751953125" />
+   </children>
+</AnchorPane>
